@@ -1,0 +1,30 @@
+{
+  "name": "qa-test-data-generator",
+  "version": "1.0.0",
+  "description": "Modular, extensible Test Data Generator and Database Seeder utility for QA automation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "demo": "ts-node examples/demo.ts"
+  },
+  "keywords": [
+    "qa",
+    "test-automation",
+    "faker",
+    "seeder",
+    "playwright",
+    "jest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "ts-node": "^10.9.2"
+  }
+}
